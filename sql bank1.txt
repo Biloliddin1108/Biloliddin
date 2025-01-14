@@ -1,0 +1,1 @@
+UPDATE User SET Salary=((SELECT Salary FROM User WHERE ID='111')+((SELECT Salary FROM User WHERE ID='111')*(SELECT Foiz FROM Subside WHERE Toyifa=(SELECT Toyifa FROM User WHERE ID='111')))/100) WHERE ID!=(SELECT qora ro'yxat FROM Subside WHERE Toyifa=(SELECT Toyifa FROM User WHERE ID='111')) AND ID='111'
